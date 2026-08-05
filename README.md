@@ -28,5 +28,6 @@ Script to compile, analyze, and plot data from registered brain slices of rabies
 
 ## Quantification files:
 
-.RData files of segmented cells and axons for each subject analyzed
+Files of segmented cells and axons for each subject analyzed, saved as .RData files.
+
 The repository contains subfolders for each experiment type (e.g., retrograde or anterograde tracing) for each system (oxytocin or vasopressin). Each subject has a single folder of all analyzed files (.RData). Folders are named after the specimen number and contains either F or M string to specify whether the specimen is from "female" or "male" cohort. 
