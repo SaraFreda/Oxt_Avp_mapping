@@ -12,23 +12,23 @@ This repository utilizes a modified version of the open-source R package wholebr
 
 ## R Code files
 
-01_segment_register_rabiesimages.R
+**01_segment_register_rabiesimages.R**
 
 Segments somatic signals from rabies tracing and registers coronal brain sections to the Allen Common Coordinate Framework using the wholebrain package. Contains a few plotting functions to visualize detected somatic signals.
 
-02_segment_register_axonimages.R
+**02_segment_register_axonimages.R**
 
 Segments axonal projections and registers coronal brain sections to the Allen Common Coordinate Framework using a modified version of the wholebrain package. Contains a few plotting functions to visualize detected axons.
 
-03_quantify_axon_pixels.R
+**03_quantify_axon_pixels.R**
 
 Script to modify wholebrain package to register detected axon pixels. Needed to run ‘02_segment_register_axonimages.R’ code.
 
-04_analyze_rabies_data.R
+**04_analyze_rabies_data.R**
 
 Script to compile, analyze, and plot data from registered brain slices of axonal projection tracing.
 
-05_analyze_projection_data.R
+**05_analyze_projection_data.R**
 
 Script to compile, analyze, and plot data from registered brain slices of rabies tracing.
 
