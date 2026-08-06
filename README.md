@@ -38,6 +38,8 @@ Files of segmented cells and axons for each subject analyzed, saved as .RData fi
 
 The repository contains a single .RData file for each experiment type (e.g., retrograde or anterograde tracing) and each system (oxytocin or vasopressin), specified by the filename. Each file contains a compiled dataframe of all subjects with segmented cells or detected axons for all coronal brain sections analyzed.
 
+These files were used to generate the data and plots in the associated manuscript.
+
 # Data
 
 Fluorescent microscopy image files of coronal brain slices (.tif) are used for anterograde and retrograde tracing pipelines in R scripts: 01_segment_register_rabiesimages.R and 02_segment_register_axonimages.R
